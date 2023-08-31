@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    font-family: "sofia pro black", Helvetica Neue, Helvetica, Arial, sans-serif;
+    }
+    .navbar {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        text-transform: uppercase;
+        background-color: #0065c3;
+        padding: 25px;
+        color: white;
+        position: fixed;
+        width: 100%;
+        height: 70px;
+        top: 0px;
+    }
+
+    .navbar-left {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .navbar-item{
+        margin-left: 35px;
+        cursor: pointer;    
+    }
+    .pepsi-logo {
+        height: 100px;
+    }
+    .button {
+        background-color: transparent;
+        padding: 8px 30px;
+        font-weight: bolder;
+        border: 2px solid white;
+        border-radius: 25px;
+        cursor: pointer;    
+    }
+
+    .navbar-right {
+        position: relative;
+        padding-left: 380px;
+    }
+
+    * {
+        margin: 0;
+        color: white;
+    }
+    
+    .music-section {
+        background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+        width: 100%;
+        height: 700px;
+        background-position: -500px;
+        display: flex;
+        background-repeat: no-repeat;
+    }
+    
+    .pepsi-image-section {
+        display: flex;
+        margin-top: 200px;
+    }
+    
+    .pepsi-image {
+        height: 99%;
+        margin-top: 108px;
+        margin-left: -165px;
+        z-index: -1;
+    }
+    
+    .pepsi-music-section {
+        display: flex;
+        flex-direction: column;
+        margin-top: 100px; 
+        justify-content: center;
+        align-items: center;
+        margin-right: 200px;
+    
+    }
+    
+    .music {
+        width: 450px;
+    }
+    
+    .get-it-now {
+        background-color: transparent;
+        border: 2px solid white;
+        padding: 7px 35px;
+        border-radius: 25px;
+        font-weight: bold;
+        margin: 50px 0 0 0;
+        font-size: large;
+    }
+    
+    .terms {
+        padding: 55px 170px 0 170px;
+        font-size: small;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .section {
+        display: flex;
+        background-image: url(https://www.pepsi.com/en-us/uploads/images/apple-music/background.png);
+    }
+    
+    .one {
+        width: 40%;
+        height: 700px;
+    }
+    
+    .two {
+        width: 60%;
+        height: 700px; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 100px;
+    } 
+    
+    .zero-suger-section {
+        background-color: black;
+        width: 100%;
+        height: 700px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .black-pepsi{
+        width: 70%;
+        height: 100%;
+        display: flex;
+    }
+    
+    .taste {
+        width: 55%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: -100px;
+    }
+    
+    .black {
+        height: 700px;
+        margin-left: -200px;
+    }
+    
+    .cap {
+        height: 200px;
+        z-index: 2;
+        position: relative;
+        left: 500px;
+        top: 100px;
+    }
+    
+    .ads{
+        display: flex;
+    }
+    
+    .first {
+        width: 250px;
+        position: relative;
+        left: 20px;
+    }
+    
+    .second {
+        width: 250px;
+    }
+    
+    .ads-text {
+        text-align: center;
+        font-weight: bolder;
+        font-size: small;
+        padding: 10px 15px 0 15px;
+        color: white;
+        margin-right: 10px;
+    }
+    
+    .img1 {
+        width: 500px;
+    }
+    
+    .img2 {
+        width: 400px;
+        margin: 20px 0;
+    }
+    
+    .zero {
+        margin-top: 100px;
+    }
+    .product{
+        display: flex;
+        max-width: 2000px;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .product-item img {
+        max-width: 450px;
+        
+    }
+    .product-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .product-item-column {
+        flex-direction: column;
+    }
+    .product-text {
+        color: white;
+    }
+    * {
+        margin: 0;
+        font-family: Helvetica, Helvetica, Arial, sans-serif;
+        color: white;
+    }
+    
+    .main-container {
+        display: flex;
+        flex: 1 65%;
+        background-color: rgb(7, 95, 183);
+    }
+    
+    .left-container {
+        display: flex;
+        flex-direction: column;
+        margin-top: 35px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    img {
+        height: 75%;
+        display: flex;
+    }    
+    
+    .right-container {
+        background:url(https://www.pepsi.com/en-us/uploads/images/better-with-pepsi/PEP_BWP_D.jpg) ;
+        background-position: -650px 0px;
+    }
+    
+    .text1 {
+        padding: 7px 0;
+        text-align: center;
+        background-color: rgb(8, 8, 135);
+        font-weight: bold;
+    }
+    
+    .text2 {
+        padding: 7px 0;
+        text-align: center;
+        background-color: rgb(8, 8, 135);
+        font-weight: bold;
+    }
+    
+    .line {
+        height: 100px;
+        z-index: 5;
+        margin-left: 650px;
+        margin-top: 445px;
+    }
+  
+    .video-section {
+        width: 100%;
+        height: 750px;
+    }
+    
+    video {
+        width: 100%;
+    
+    }
+
+    .advertisment {
+        display: flex;
+        background-color: #035fb4;
+        width: 100%;
+        height: 700px;
+    }
+
+    .blue-can-image {
+        margin-top: 170px;
+        margin-left: 50px;
+    }
+
+    .like-image {
+        width: 80%;
+        height: 50%;
+        margin-top: 150px;
+        margin-left: 150px;
+    }
+
+    .can-section {
+        width: 100%;
+        height: 500px;
+        display: flex;
+        background-color: #0065c3;
+    }
+
+    .paragraph {
+        width: 50%;
+        height: 70%;
+    }
+
+    .para-1 {
+        margin-top: 100px;
+        margin-left: 100px;
+        font-size: 50px;
+    }
+
+    .para-2 {
+        margin-left: 100px;
+    }
+
+    .can-button {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+
+    .can {
+        margin-top: 100px;
+        margin-left: 100px;
+        width: 80%;
+        height: 60%;
+    }
+
+    .social-media-section {
+        width: 100%;
+        height: 275px;
+        background-color: white;
+        margin-top: 2px;
+        
+    }
+
+    .heading {
+        width: 100%;
+        height: 15px;
+        margin-left: 30%;
+    }
+
+    .stay{
+        color: #0065c3;
+        
+    }
+
+    .rectangle {
+        display: flex;
+        width: 100%;
+        height: 260px;
+        justify-content: center;
+        align-items: end;
+    }
+
+    .box {
+        width: 230px;
+        height: 230px;
+        background-color: red;
+        object-fit: cover;
+    }
+
+    .box-image {
+        width: 230px;
+        height: 230px;
+    }
+    .footer {
+        background-color: #0065c3;
+    }
